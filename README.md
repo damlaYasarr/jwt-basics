@@ -2,9 +2,9 @@
 
 # dependencies  
 
-npm install --save body-parser
-npm install --save express
-npm install --save jsonwebtoken  
+- npm install --save body-parser
+- npm install --save express
+- npm install --save jsonwebtoken  
 
 
 
@@ -17,7 +17,7 @@ bodyparser provides to get data as a object. So user's send data is captured fro
 
 # jwt token 
 
-A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). 
+- A JSON web token(JWT) is JSON Object which is used to securely transfer information over the web(between two parties). 
 It can be used for an authentication system and can also be used for information exchange.The token is mainly composed of header,
 payload, signature. These three parts are separated by dots(.). JWT defines the structure of information we are sending from one 
 party to the another, and it comes in two forms – Serialized, Deserialized. The Serialized approach is mainly used to transfer the data 
